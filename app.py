@@ -18,3 +18,12 @@ def kaprekars_before(n: int) -> [int]:
         if is_kaprekar(i) and i % 10 != 0:
             kaprekars.append(i)
     return kaprekars
+
+
+def valid_user_input(prompt, options):
+    '''Ensures user input is within valid options. '''
+    user_input = input(prompt)
+    while user_input not in options:
+        print("Invalid option")
+        user_input = input(prompt)
+    return user_input
