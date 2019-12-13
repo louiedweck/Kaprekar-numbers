@@ -1,4 +1,4 @@
-# Kaprekar-numbers
+# Kaprekar-Numbers
 
 A Kaprekar Number for a given base is a non-negative integer, 
 the representation of whose square in that base can be split into two parts—either 
